@@ -1,4 +1,4 @@
-var N = 150;
+var N = 50;
 var B1;
 var B2;
 
@@ -20,7 +20,7 @@ function draw() {
   for ( n = 0 ; n < N ; n++ ){
     B1[n].evolveDraw();
     B2[n].evolveDraw();
-    stroke( 0 , 0 , 0 , 20 );
+    stroke( 0 , 0 , 0 , 2 );
     line( B1[n].pos.x , B1[n].pos.y , B2[n].pos.x , B2[n].pos.y );
   }
 }
